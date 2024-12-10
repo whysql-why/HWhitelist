@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96eba5fa-68ee-41c0-bde4-aeedd8b9d082" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/best/hWhitelist/listeners/MainEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/best/hWhitelist/HWhitelist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/best/hWhitelist/HWhitelist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/best/hWhitelist/listeners/MainEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/best/hWhitelist/listeners/MainEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733869502078</updated>
       <workItem from="1733869503094" duration="208000" />
-      <workItem from="1733869723037" duration="833000" />
+      <workItem from="1733869723037" duration="1406000" />
     </task>
     <servers />
   </component>
