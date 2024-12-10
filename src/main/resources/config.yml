@@ -1,0 +1,18 @@
+# Main Config of HWhitelist.
+# H stands for hostname BTW.
+
+kick_message: '' # color codes are supported.
+
+anything_but_these:
+  enabled: false
+  hosts:
+    - '127.0.0.1'
+    - '0.0.0.0'
+
+only_from_this:
+  enabled: true
+  hosts:
+    - 'play.example.com' # replace with your server address
+
+
+# If both of these options are enabled. It wil work with both. Adding the same host on both of these options will cause an error.
