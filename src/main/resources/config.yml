@@ -1,6 +1,14 @@
 # Main Config of HWhitelist.
 # H stands for hostname BTW.
 
+
+# Commands Placeholder:
+# %player% = returns player name
+# %player-ip% = returns player ip
+# %hostname% = returns the hostname player used to join.
+
+
+
 kick_message: '' # color codes are supported.
 
 anything_but_these:
@@ -8,11 +16,15 @@ anything_but_these:
   hosts:
     - '127.0.0.1'
     - '0.0.0.0'
+  commands:
+    - 'say %player%!' # you can add commands here, for execution after this is triggered.
 
 only_from_this:
   enabled: true
   hosts:
     - 'play.example.com' # replace with your server address
+  commands:
+    - 'say %player%!'
 
 
 # If both of these options are enabled. It wil work with both. Adding the same host on both of these options will cause an error.
