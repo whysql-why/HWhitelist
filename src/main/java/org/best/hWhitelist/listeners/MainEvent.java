@@ -67,7 +67,7 @@ public class MainEvent implements Listener {
             List<String> commands = (List<String>) plugin.getConfig().getList("anything_but_these.commands");
             String kick_message = plugin.getConfig().getString("kick_message").replace("&", "§");
             for(String command : commands){
-                Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command); //simple yes.
+                Bukkit.dispatchCommand(Bukkit.getConsoleSender(), applyplaceholders(command, e.getPlayer(), hostname)); //simple yes.
             }
             e.disallow(PlayerLoginEvent.Result.KICK_OTHER, kick_message);
         }
@@ -75,8 +75,7 @@ public class MainEvent implements Listener {
             List<String> commands = (List<String>) plugin.getConfig().getList("only_from_this_enabled.commands");
             String kick_message = plugin.getConfig().getString("kick_message").replace("&", "§");
             for(String command : commands){
-                applyplaceholders(command, e.getPlayer(), hostname);
-                Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command);
+                Bukkit.dispatchCommand(Bukkit.getConsoleSender(), applyplaceholders(command, e.getPlayer(), hostname));
             }
             e.disallow(PlayerLoginEvent.Result.KICK_OTHER, kick_message);
         }
