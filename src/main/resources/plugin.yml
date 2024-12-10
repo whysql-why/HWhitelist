@@ -1,0 +1,4 @@
+name: HWhitelist
+version: '1.0-SNAPSHOT'
+main: org.best.hWhitelist.HWhitelist
+api-version: '1.20'
